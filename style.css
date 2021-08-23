@@ -199,19 +199,44 @@ ul.social li a {
 
 /* iPad Portrait */
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     
     .main .about {
-        width: 49%;
+        width: 100%;
         margin-right: 7px;
+        
     }
+    
+    .about p {
+     font-size: 1.2em;
+}
+    
+    .btn-lg {
+    padding: 5px 10px;
+    font-size: 40px;
+    line-height: none;
+    border-radius: 4px;
+    }
+    
+    
+    body {
+    font-family: 'Montserrat', sans-serif;
+    color: #404142;
+    font-size: 30px;
+    letter-spacing: 0.2px;
+    }
+    
+    ul.social li a {
+    font-size:1.5em;
+    }
+    
+    ul.social li {
+    list-style: none;
+    display: inline-block;
+    margin: 1em 0.5em;
 }
 
-/* iPad Landscape */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    .main .about {
-        width: 49%;
-        margin-right: 9px;
-    }
+    
 }
+
+
